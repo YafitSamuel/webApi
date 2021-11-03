@@ -1,44 +1,59 @@
-
-body{
-    font-family: 'Irish Grover', cursive;
-   background-image:url("https://listfist.com/wp-content/uploads/pokemon-the-power-of-us-movie.jpg");
-    background-size: cover;
-   width: 100vw;
-   height: 100vh;
-   background-attachment: fixed;
-
+body {
+  font-family: "Irish Grover", cursive;
+  background-image: url("http://www.2all.co.il/web/Sites/lloopi/94017_(60).jpg");
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  background-attachment: fixed;
 }
-#searchInput{
-  width:150px;
+#div {
+  display: flex;
+  justify-content: center;
+}
+#searchInput {
+  width: 400px;
   height: 30px;
-  border: 4px solid  #04AA6D;
+  border: 4px solid black;
   border-radius: 10px;
- justify-content: center;
-  
+  justify-content: center;
 }
-
-#myDiv1{
- display: flex;
- flex-wrap: wrap;
- flex-direction:row;
- text-align: center;
-
+#myDiv1 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  text-align: center;
 }
-.container{
-    width: 30%;
-    padding: 15px;
-  color: white ;
+.container {
+  width: 400px;
+  height: 500px;
+   margin: 10px; 
+  margin-left: 200px;
+  color: white;
   font-size: medium;
+  background-color: rgba(252, 61, 93, 0.445);
+  border-radius: 20px;
+  border: 5px solid black;
 }
-
-#image{
-    width: 250px;
-    height: 300px;
-    border: 5px  solid white;
+#image {
+  width: 250px;
+  height: 300px;
+  border: 5px solid white;
 }
-#gif{
+#gif {
   width: 200px;
   height: 250px;
   margin-left: 550px;
   margin-top: 200px;
+}
+#searchBtn {
+  width: 50px;
+  height: 40px;
+  border: 5px solid black;
+  border-radius: 10px;
+}
+#searchBtn img {
+  width: 35px;
+  height: 28px;
+  border-radius: 30px;
+  border-left: white;
 }
